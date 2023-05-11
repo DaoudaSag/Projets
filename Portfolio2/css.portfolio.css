@@ -1,0 +1,157 @@
+body{
+    background-image: url(sunset.jpg);
+    background-size: 100vw 56vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    /*background: linear-gradient(linen,lightSteelblue);*/
+}
+
+
+h1  {
+    color: rgb( 99, 57, 116);
+    font-size: 5vw;
+    border-style: double;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+    padding: 1vw;
+    transform: translateY(-2vw);
+    border-radius: 2vw;
+    text-shadow: 0.2vw 0.2vw 0.2vw;
+    }
+
+
+.menu {
+    border-color: rgb( 215, 189, 226 );
+    border-radius: 20vw;
+    width: 20vw; 
+    background-color: rgb( 235, 222, 240 );
+    text-shadow: 2px 2px 2px white;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+    text-shadow: 2px 2px 2px white;
+}
+
+
+nav{
+    position: fixed;
+    transform: translateY(-3vw); 
+}
+
+/* #button1{transform: translateX(1vw);text-shadow: 2px 2px 2px white;}  
+#button2{transform: translateY(7vw) translateX(-19vw);text-shadow: 2px 2px 2px white;}
+#button3{transform: translateY(14vw) translateX(-39vw);text-shadow: 2px 2px 2px white;}
+#button4{transform: translateY(21vw) translateX(-59vw);text-shadow: 2px 2px 2px white;}
+#button5{transform: translateY(24vw) translateX(2vw);text-shadow: 2px 2px 2px white;}
+#button6{transform: translateY(31vw) translateX(-18vw);text-shadow: 2px 2px 2px white} */
+
+#moi{
+    color: aliceblue;
+    text-decoration: underline;
+    transform: translateX(50vw);
+    font-size: 4vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0.3vw 0.3vw 0.3vw black;
+    transform: translateX(40vw) translateY(7vw);
+    width: 50vw;  
+}
+
+
+.box-text{
+    transform: translateX(25vw) translateY(-1vw);
+    width: 70vw;
+    height: 37vw;
+    background-color: rgb(253, 254, 254);
+    border: solid;
+    border-color: rgb( 155, 89, 182 );
+    overflow: auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vw;
+    border-radius: 1vw;
+}
+
+
+.p-titre{
+    font-size: 2.2vw;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(36, 113, 163);
+}
+
+.p-text{
+    font-size: 1.5vw
+}
+
+
+/* ------------------ CONTACT ---------------------- */
+
+#p-contact{
+    text-align: center;
+    font-size: 2vw;
+    transform: translateY(10vw);
+}
+
+.span-contact{
+    color:blueviolet
+}
+
+
+/* ------------------ MOI ---------------------- */
+
+#CV{
+    font-size: 15px;
+    border-radius: 10vw;
+    background-color: rgb( 209, 242, 235 );
+    box-shadow:0.1vw 0.1vw 0.1vw 0.1vw;
+}
+
+#PPE{
+    font-size: 15px;
+    border-radius: 10vw;
+    background-color: rgb( 209, 242, 235 );
+    box-shadow:0.1vw 0.1vw 0.1vw 0.1vw;
+}
+
+/* ------------------ STAGE ---------------------- */
+
+.span-stage{
+    color: rgb( 72, 201, 176 );
+}
+
+.span-def{
+    color:  rgb(  40, 180, 99  ) ;
+    text-decoration: underline;
+
+}
+
+/* .span-def2{
+    color:rgb( 46, 204, 113) ;
+} */
+
+.annexe{
+    width: 60vw;
+    height: 35vw;
+}
+
+.sous-titre{
+    color: rgb( 22, 160, 133 );
+    text-transform: uppercase;
+    text-shadow: 1vw 1vw 1vw ;
+}
+
+.outils{
+    margin: 1vw;
+}
+
+.articles{
+    width: 15vw;
+    height: 15vw;
+    margin-right: 3vw;
+    margin-left: 4vw;
+}
+
+.img_articles{
+    height: 15vw;
+    width: 15vw;
+}
