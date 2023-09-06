@@ -135,7 +135,7 @@ fenêtre1.propagate(False)
 
 imgGoku = Canvas(fenêtre1, width = 150, height = 170)
 imgGoku.pack(pady = 30)
-animate_gif("Goku.gif", imgGoku)
+animate_gif("/RPG_v2/Goku.gif", imgGoku)
 
 fenêtre1_1 = Frame(fenêtre1, bg= "#16a085", width = 250, height = 100, borderwidth = 3)
 fenêtre1_1.pack(side = BOTTOM)
@@ -161,7 +161,7 @@ fenêtre2.propagate(False)
 
 imgVegeta = Canvas(fenêtre2, width = 150, height = 170)
 imgVegeta.pack(pady = 30)
-animate_gif("Vegeta.gif", imgVegeta)
+animate_gif("/RPG_v2/Vegeta.gif", imgVegeta)
 
 fenêtre2_1 = Frame(fenêtre2, bg= "#16a085", width = 250, height = 100, borderwidth = 3)
 fenêtre2_1.pack(side = BOTTOM)
